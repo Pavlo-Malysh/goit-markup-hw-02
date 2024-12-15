@@ -31,7 +31,10 @@ a {
 
 }
 
-.button:hover,
+.button:hover {
+    background-color: #404bbf;
+}
+
 .botton:focus {
     background-color: #404bbf;
 }
@@ -57,8 +60,8 @@ a {
     color: #2e2f42;
 }
 
-.nav-item:hover,
-.nav-item:focus,
+.nav-link:hover,
+.nav-link:focus,
 .address-link-item:hover,
 .address-link-item:focus {
     color: #404bbf;
