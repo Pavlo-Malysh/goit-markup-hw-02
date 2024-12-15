@@ -19,7 +19,7 @@ a {
 }
 
 .button {
-    background: #4d5ae5;
+    background-color: #4d5ae5;
     cursor: pointer;
     text-transform: capitalize;
     font-family: inherit;
@@ -31,7 +31,8 @@ a {
 
 }
 
-.button:hover .botton:focus {
+.button:hover,
+.botton:focus {
     background-color: #404bbf;
 }
 
@@ -51,15 +52,15 @@ a {
     color: #2e2f42;
 }
 
-.nav-link {
+.nav-item {
     font-weight: 500;
     color: #2e2f42;
 }
 
-.nav-link:hover,
-.nav-link:focus,
-.address-link:hover,
-.address-link:focus {
+.nav-item:hover,
+.nav-item:focus,
+.address-link-item:hover,
+.address-link-item:focus {
     color: #404bbf;
 }
 
