@@ -31,12 +31,10 @@ a {
 
 }
 
-.button:hover {
+.button:hover,
+.button:focus {
     background-color: #404bbf;
-}
-
-.botton:focus {
-    background-color: #404bbf;
+    color: #fff;
 }
 
 /* Header */
